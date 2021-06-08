@@ -19,6 +19,11 @@
      padding: 10px;
  }
 
+ ul {
+     margin: 0;
+     padding: 0;
+ }
+
  a:link {
      text-decoration: none;
      color: black;
@@ -112,7 +117,7 @@ footer.footer {
 @media screen and (min-width: 768px) {
     nav li {
         display: inline;
-        background-color: rgb(244, 244, 244);
+        background-color: rgb(241, 241, 241);
     }
     .intro-container {
         display: flex;
@@ -182,7 +187,7 @@ footer.footer {
         justify-content: space-between;
     }
     nav {
-        padding: 45px 20px 0 0;
+        padding: 50px 20px 0 0;
     }
     #profile-pic {
         margin-top: 0;
